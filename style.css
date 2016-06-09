@@ -115,6 +115,7 @@ header.header {
 
 .nav > li {
     padding: 15px 15px;
+    
 }
 
 .is-sticky .navi {
@@ -179,7 +180,7 @@ header.header {
 }
 
 .dropdown-menu > li > a {
-    background-color: ;
+    background-color: transparent;
     transition: all .5s;
 }
 
@@ -948,3 +949,8 @@ video {
     z-index: 2;
     overflow: hidden;
 }
+
+
+PRICE
+
+
