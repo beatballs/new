@@ -51,9 +51,6 @@ p1 {
     color: rgb(247,234,95);
 }
 
-p1:hover {
-    font-size: 33px;
-    color: rgb(13,194,49);
 }
 a:hover {
     text-decoration: none
@@ -378,7 +375,7 @@ button.close {
 
 /*carousel area css*/
 #review {
-    background: url("img/testimonial-bg.jpg") no-repeat fixed center center;
+    background: rgb(13,149,94) no-repeat top center;
     background-size: cover;
     position: relative;
 }
@@ -528,6 +525,10 @@ button.close {
 
 .client-section h4 {
     padding: 70px 0 50px;
+}
+
+.client-logo {
+    padding: 5px 5px;
 }
 
 /*blog css*/
