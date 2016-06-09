@@ -451,6 +451,7 @@ button.close {
 /*about area css*/
 #about {
     color: #272b2f;
+    padding-bottom: 0px;
 
 }
 
@@ -524,7 +525,7 @@ button.close {
 }
 
 .client-section h4 {
-    padding: 70px 0 50px;
+    padding: 0px 0 20px;
 }
 
 .client-logo {
