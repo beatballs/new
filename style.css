@@ -46,6 +46,15 @@ p {
     font-size: 13px;
 }
 
+p1 {
+    font-size: 50px;
+    color: rgb(247,234,95);
+}
+
+p1:hover {
+    font-size: 33px;
+    color: rgb(13,194,49);
+}
 a:hover {
     text-decoration: none
 }
