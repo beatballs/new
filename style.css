@@ -722,7 +722,7 @@ footer p {
     font-size: 11px;
     letter-spacing: 2px;
     color: #282828;
-    text-transform: uppercase;
+    text-transform: lowercase;
     padding: 25px 0 15px;
 }
 
