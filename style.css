@@ -232,6 +232,7 @@ header.header {
     letter-spacing: 2px;
     text-transform: uppercase;
     display: table;
+    
 }
 
 .table {
@@ -263,6 +264,14 @@ header.header {
 }
 
 /*project css*/
+
+#project {
+
+ padding-bottom: 5%;
+    padding-top: 5%;
+
+}
+
 .project-name {
     padding-bottom: 55px;
     color: #272b2f;
@@ -365,10 +374,23 @@ button.close {
     opacity: 1;
 }
 
+
+#price {
+    background-color: #F5FCFC;
+    color: #272b2f;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
+}
+
+
 /*services css */
 #service {
     background-color: #F5FCFC;
     color: #272b2f;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    
 }
 
 .single-service i {
@@ -398,6 +420,8 @@ button.close {
     background: rgb(13,149,94) no-repeat top center;
     background-size: cover;
     position: relative;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 .carousel-overlay {
@@ -471,7 +495,8 @@ button.close {
 /*about area css*/
 #about {
     color: #272b2f;
-    padding-bottom: 0px;
+    padding-bottom: 5%;
+    padding-top: 7%;
 
 }
 
@@ -550,7 +575,27 @@ button.close {
 
 .client-logo {
     padding: 5px 5px;
+    
 }
+
+/*
+
+-- image hover--
+
+.client-logo img {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+img:hover {
+  filter: none;
+  -webkit-filter: none;
+    
+}
+/**/
 
 /*blog css*/
 #blog {
@@ -591,6 +636,13 @@ button.close {
 }
 
 /*contact area*/
+
+#connect {
+    
+    padding-top: 5%;
+    padding-bottom: 3%;
+    
+    }
 
 .contact-form input[type="text"], input[type="email"] {
     border: 1px solid #272B2F;
